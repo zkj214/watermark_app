@@ -4,7 +4,7 @@ from PIL import Image, ImageTk, ImageDraw, ImageFont
 import math
 
 window=tkinter.Tk()
-window.title("My App")
+window.title("")
 window.config(width=600, height=600,bg="#7FC7D9",padx=20,pady=20)
 
 title=tkinter.Label(text="Watermarker App",font=("Arial",25,"bold"),bg="#7FC7D9",fg="white",padx=15,pady=15)
